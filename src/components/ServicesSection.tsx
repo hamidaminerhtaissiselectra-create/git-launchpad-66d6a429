@@ -74,7 +74,7 @@ const ServicesSection = () => (
             className={`group bg-card rounded-2xl overflow-hidden card-shadow hover:card-shadow-hover transition-all duration-500 border border-border ${s.cardBorder} relative`}
           >
             <div className="relative h-52 overflow-hidden">
-              <img src={s.image} alt={s.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
+              <img src={s.image} alt={s.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" width={600} height={400} />
               <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
               <div className={`absolute top-4 left-4 w-12 h-12 rounded-xl ${s.iconBg} ${s.iconShadow} flex items-center justify-center border border-white/20 z-10`}>
                 <s.icon className="h-6 w-6 text-white" strokeWidth={2} />

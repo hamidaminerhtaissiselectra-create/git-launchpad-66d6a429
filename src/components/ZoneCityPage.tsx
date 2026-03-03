@@ -43,6 +43,8 @@ const ZoneCityPage = ({ city }: ZoneCityPageProps) => {
     "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": String(city.testimonials.length * 47) },
   };
 
+  // FAQPage schema generated after faqs are defined - moved to render
+
   const services = [
     { icon: Wrench, title: "Réparation d'Urgence 7j/7", text: `Volet bloqué, moteur défaillant ? Intervention d'urgence 7j/7 à ${city.name}. Délai : généralement moins de 24h.`, color: "text-service-orange" },
     { icon: Shield, title: "Installation & Remplacement", text: `Volets manuels, électriques et solaires adaptés à l'habitat de ${city.name}. Toutes marques.`, color: "text-service-blue" },
@@ -53,12 +55,14 @@ const ZoneCityPage = ({ city }: ZoneCityPageProps) => {
   ];
 
   const faqs = [
-    { q: `Quel est le délai d'intervention à ${city.name} ?`, a: `Nous intervenons généralement sous 24-48h à ${city.name}. Pour les urgences, contactez-nous au 06 03 20 59 67 et nous nous efforçons d'intervenir le jour même.` },
-    { q: "Proposez-vous des services d'urgence 7j/7 ?", a: `Oui, nos techniciens sont disponibles 7j/7 pour les urgences à ${city.name}, y compris dimanches et jours fériés.` },
-    { q: "Quelle est la garantie sur vos interventions ?", a: "Nous garantissons nos interventions 3 ans. Cette garantie couvre les pièces et la main d'œuvre." },
+    { q: `Quel est le délai d'intervention pour un volet bloqué à ${city.name} ?`, a: `Pour un volet roulant bloqué à ${city.name}, Répar'Action Volets intervient sous 24-48h en semaine, et le jour même pour les urgences de sécurité (volet ouvert la nuit, bris de glace). Nos véhicules sont pré-équipés des pièces les plus courantes (moteurs Somfy, sangles, lames alu/PVC) pour résoudre 95% des pannes au premier passage. Appelez le 06 03 20 59 67 pour connaître le délai précis dans votre quartier.` },
+    { q: `Proposez-vous un service d'urgence volets roulants 7j/7 à ${city.name} ?`, a: `Oui, nos techniciens certifiés sont mobilisables 7j/7, y compris dimanches et jours fériés, pour toute urgence à ${city.name} : volet bloqué en position ouverte, rideau métallique de commerce coincé, bris de glace suite à effraction. La prise en charge est immédiate par téléphone, et l'intervention sur site se fait dans les meilleurs délais selon votre localisation précise.` },
+    { q: `Quelle garantie offrez-vous sur vos réparations de volets à ${city.name} ?`, a: `Toutes nos interventions à ${city.name} sont couvertes par une garantie de 3 ans sur les pièces et la main d'œuvre. Nous utilisons exclusivement des pièces d'origine des fabricants (Somfy, Bubendorff, Profalux, Simu). Notre certification RGE et notre assurance décennale vous protègent contre tout défaut. En cas de problème, nous revenons gratuitement dans le cadre de la garantie.` },
     city.uniqueFaq,
-    { q: `Quel est le coût moyen d'une réparation à ${city.name} ?`, a: "Une réparation simple coûte entre 100€ et 300€. Un remplacement complet entre 500€ et 2000€. Devis gratuit et transparent." },
-    { q: "Travaillez-vous avec Somfy et Bubendorff ?", a: "Oui, nous sommes partenaires Somfy, Bubendorff, Profalux et autres grandes marques." },
+    { q: `Quel est le coût moyen d'une réparation de volet roulant à ${city.name} ?`, a: `Les tarifs à ${city.name} varient selon le type de panne : remplacement de sangle (80-120€), réparation moteur électrique (180-350€), remplacement de lames (100-250€), déblocage tablier (90-150€). Un remplacement complet de volet coûte entre 350€ et 900€ pose comprise. Le diagnostic est 100% gratuit et sans engagement — nous vous remettons un devis détaillé avant toute intervention.` },
+    { q: `Quelles marques de volets roulants réparez-vous à ${city.name} ?`, a: `Nous intervenons sur toutes les marques à ${city.name} : Somfy, Bubendorff, Profalux, Franciaflex, Simu, Nice, Becker, Came, Zurflüh-Feller, Lakal. Nos techniciens sont certifiés multimarques et disposent des outils de diagnostic spécifiques à chaque fabricant. Que votre volet soit manuel, électrique filaire, radio ou solaire — nous avons la solution.` },
+    { q: `Pouvez-vous motoriser mes volets manuels existants à ${city.name} ?`, a: `Absolument. La motorisation de volets manuels existants est l'une de nos spécialités à ${city.name}. Nous installons un moteur tubulaire (filaire, radio ou connecté io-homecontrol) directement dans le tube d'enroulement existant, sans aucun travail de maçonnerie. L'opération prend 1 à 2 heures par volet. Vous pouvez ensuite piloter vos volets par télécommande ou via smartphone avec l'application Somfy TaHoma.` },
+    { q: `Êtes-vous certifié RGE ? Puis-je bénéficier d'aides financières à ${city.name} ?`, a: `Oui, Répar'Action Volets est certifié RGE (Reconnu Garant de l'Environnement) et Qualibat. En faisant appel à un artisan RGE pour vos travaux à ${city.name}, vous pouvez bénéficier de MaPrimeRénov', de l'éco-PTZ (prêt à taux zéro jusqu'à 30 000€), de la TVA réduite à 5,5% et des Certificats d'Économies d'Énergie (CEE). Nous vous accompagnons dans toutes les démarches administratives.` },
   ];
 
   const advantages = [
@@ -74,14 +78,24 @@ const ZoneCityPage = ({ city }: ZoneCityPageProps) => {
     <div className="min-h-screen bg-background">
       <Navbar />
 
-      {/* JSON-LD */}
+      {/* JSON-LD LocalBusiness */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      {/* JSON-LD FAQPage for rich snippets */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(f => ({
+          "@type": "Question",
+          "name": f.q,
+          "acceptedAnswer": { "@type": "Answer", "text": f.a }
+        }))
+      }) }} />
 
       {/* Hero — parallax style like homepage */}
       <section ref={heroRef} className="relative min-h-[550px] flex items-center overflow-hidden pt-20">
         {city.image ? (
           <motion.div className="absolute inset-0" style={{ y: bgY }}>
-            <img src={city.image} alt={`Volets roulants ${city.name}`} className="w-full h-[120%] object-cover" />
+            <img src={city.image} alt={`Volets roulants ${city.name}`} className="w-full h-[120%] object-cover" width={1920} height={1080} />
             <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-primary/50" />
           </motion.div>
         ) : (
