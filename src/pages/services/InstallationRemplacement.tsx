@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import imgInstallation from "@/assets/service-installation.jpg";
+import imgInstallation from "@/assets/service-installation-v2.jpg";
 import ProcessSection from "@/components/ProcessSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import QuoteFormSection from "@/components/QuoteFormSection";
@@ -67,11 +67,11 @@ const InstallationRemplacementPage = () => {
               Transformez votre habitat avec des volets roulants neufs fabriqués sur-mesure. Aluminium ou PVC — nous vous accompagnons du choix du matériau à la pose professionnelle, avec garantie 3 ans.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
-              <Button size="lg" variant="accent" asChild className="gap-2 shadow-lg shadow-accent/25 rounded-full">
-                <Link to="/#devis">Devis Gratuit Personnalisé <ArrowRight className="h-5 w-5" /></Link>
+              <Button size="lg" variant="accent" asChild className="px-8 py-7 text-lg font-bold rounded-full shadow-xl transition-all duration-300 hover:scale-105">
+                <Link to="/#devis" className="flex items-center gap-2">Devis Gratuit Personnalisé <ArrowRight className="h-5 w-5" /></Link>
               </Button>
-              <Button size="lg" variant="accent-outline" asChild className="gap-2 rounded-full">
-                <a href="tel:0603205967"><Phone className="h-5 w-5" /> 06 03 20 59 67</a>
+              <Button size="lg" variant="accent-outline" asChild className="px-8 py-7 text-lg font-bold rounded-full transition-all duration-300 hover:scale-105">
+                <a href="tel:0603205967" className="flex items-center gap-2"><Phone className="h-5 w-5" /> 06 03 20 59 67</a>
               </Button>
             </div>
             <div className="flex flex-wrap gap-3">

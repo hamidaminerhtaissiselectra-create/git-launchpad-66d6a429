@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Award, Users, CheckCircle2, ArrowRight, ChevronRight, Trophy, Zap } from "lucide-react";
+import { fadeUp, fadeLeft, fadeRight, staggerItem, hoverLift } from "@/lib/animations";
 import { useSEO } from "@/hooks/useSEO";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -11,9 +12,9 @@ import QuoteFormSection from "@/components/QuoteFormSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ServiceRegionsSection from "@/components/ServiceRegionsSection";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import aboutTeamImg from "@/assets/about-team.jpg";
+import aboutTeamImg from "@/assets/about-team-v2.jpg";
 import aboutValuesImg from "@/assets/about-values.jpg";
-import aboutExpertiseImg from "@/assets/about-expertise.jpg";
+import aboutExpertiseImg from "@/assets/about-expertise-v2.jpg";
 
 const expertiseItems = [
   { icon: Trophy, title: "10+ ans d'expérience", desc: "Depuis plus de 10 ans, nous intervenons sur des milliers de volets roulants. Notre expérience nous permet de diagnostiquer et résoudre rapidement tout type de panne.", color: "bg-service-blue", iconShadow: "shadow-[0_4px_14px_hsl(213,72%,50%,0.35)]" },
@@ -127,10 +128,10 @@ const AboutUsPage = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
-            <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="rounded-2xl overflow-hidden card-shadow">
+            <motion.div {...fadeLeft} className="rounded-2xl overflow-hidden card-shadow">
               <img src={aboutExpertiseImg} alt="Notre expertise et savoir-faire" className="w-full h-auto object-cover" />
             </motion.div>
-            <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
+            <motion.div {...fadeRight}>
               <h2 className="font-display text-3xl font-bold text-foreground mb-6">Notre Expertise & Savoir-Faire</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Avec plus de 10 ans d'expérience, Répar'Action Volets s'est établi comme le leader incontournable de la réparation et de l'installation de volets roulants à Paris et en Île-de-France. Notre équipe de techniciens certifiés maîtrise tous les types de volets : manuels, électriques, solaires, ainsi que les dernières technologies domotiques.
@@ -159,7 +160,7 @@ const AboutUsPage = () => {
       {/* Statistiques Section */}
       <section className="py-16 bg-section-gradient">
         <div className="container mx-auto px-4">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center max-w-2xl mx-auto mb-12">
+          <motion.div {...fadeUp} className="text-center max-w-2xl mx-auto mb-12">
             <Badge variant="accent" className="gap-2 px-3 py-1 rounded-full text-sm font-semibold mb-4">Nos Résultats</Badge>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">Nos Chiffres Clés</h2>
             <p className="text-muted-foreground">Une décennie d'engagement envers l'excellence et la satisfaction client</p>
@@ -171,7 +172,7 @@ const AboutUsPage = () => {
               { number: "500+", label: "Clients satisfaits", icon: Users, color: "bg-service-emerald", iconShadow: "shadow-[0_4px_14px_hsl(160,70%,40%,0.35)]" },
               { number: "4.9/5", label: "Note moyenne", icon: Award, color: "bg-service-violet", iconShadow: "shadow-[0_4px_14px_hsl(260,65%,55%,0.35)]" },
             ].map((stat, i) => (
-              <motion.div key={stat.label} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="bg-card rounded-xl p-8 border border-border card-shadow text-center hover:card-shadow-hover transition-all">
+              <motion.div key={stat.label} {...staggerItem(i)} {...hoverLift} className="bg-card rounded-xl p-8 border border-border card-shadow text-center hover:card-shadow-hover transition-all">
                 <div className={`w-14 h-14 rounded-2xl ${stat.color} ${stat.iconShadow} flex items-center justify-center mx-auto mb-4 border border-white/20`}>
                   <stat.icon className="h-7 w-7 text-white" />
                 </div>
@@ -187,7 +188,7 @@ const AboutUsPage = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
-            <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
+            <motion.div {...fadeLeft}>
               <h2 className="font-display text-3xl font-bold text-foreground mb-6">Nos Valeurs Fondamentales</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Chez Répar'Action Volets, nos valeurs guident chaque décision et chaque intervention. Nous croyons que la qualité du service n'est pas négociable, et que chaque client mérite une attention particulière et un travail impeccable.
@@ -209,7 +210,7 @@ const AboutUsPage = () => {
                 ))}
               </div>
             </motion.div>
-            <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="rounded-2xl overflow-hidden card-shadow">
+            <motion.div {...fadeRight} className="rounded-2xl overflow-hidden card-shadow">
               <img src={aboutValuesImg} alt="Nos valeurs et engagement qualité" className="w-full h-auto object-cover" />
             </motion.div>
           </div>
@@ -219,11 +220,11 @@ const AboutUsPage = () => {
       {/* Expertise Grid */}
       <section className="py-16 bg-section-gradient">
         <div className="container mx-auto px-4">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="max-w-4xl mx-auto">
+          <motion.div {...fadeUp} className="max-w-4xl mx-auto">
             <h2 className="font-display text-3xl font-bold text-foreground mb-8 text-center">Notre Expertise & Autorité</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              {expertiseItems.map((item) => (
-                <div key={item.title} className="bg-card rounded-xl p-6 border border-border card-shadow hover:card-shadow-hover transition-all">
+              {expertiseItems.map((item, i) => (
+                <motion.div key={item.title} {...staggerItem(i)} {...hoverLift} className="bg-card rounded-xl p-6 border border-border card-shadow hover:card-shadow-hover transition-all">
                   <div className="flex items-center gap-3 mb-4">
                     <div className={`w-12 h-12 rounded-2xl ${item.color} ${item.iconShadow} flex items-center justify-center border border-white/20`}>
                       <item.icon className="h-6 w-6 text-white" />
@@ -231,7 +232,7 @@ const AboutUsPage = () => {
                     <h3 className="font-display font-bold text-foreground text-lg">{item.title}</h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">{item.desc}</p>
-                </div>
+                </motion.div>
               ))}
             </div>
           </motion.div>
@@ -241,11 +242,11 @@ const AboutUsPage = () => {
       {/* Certifications */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="max-w-4xl mx-auto text-center">
+          <motion.div {...fadeUp} className="max-w-4xl mx-auto text-center">
             <h2 className="font-display text-3xl font-bold text-foreground mb-8">Nos Certifications & Garanties</h2>
             <div className="grid md:grid-cols-4 gap-6">
               {certifications.map((cert, i) => (
-                <motion.div key={cert.name} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="bg-card rounded-xl p-6 border border-border card-shadow text-center hover:card-shadow-hover transition-all">
+                <motion.div key={cert.name} {...staggerItem(i)} {...hoverLift} className="bg-card rounded-xl p-6 border border-border card-shadow text-center hover:card-shadow-hover transition-all">
                   <div className={`w-14 h-14 rounded-2xl ${cert.color} ${cert.iconShadow} flex items-center justify-center mx-auto mb-3 border border-white/20`}>
                     <Award className="h-7 w-7 text-white" />
                   </div>
@@ -261,24 +262,14 @@ const AboutUsPage = () => {
       {/* FAQ Section - Harmonized with Accordion */}
       <section className="py-16 bg-section-gradient relative overflow-hidden">
         <div className="container mx-auto px-4 relative">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }} 
-            whileInView={{ opacity: 1, y: 0 }} 
-            viewport={{ once: true }} 
-            className="text-center max-w-2xl mx-auto mb-14"
-          >
+          <motion.div {...fadeUp} className="text-center max-w-2xl mx-auto mb-14">
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 text-accent text-sm font-semibold border border-accent/20 mb-4">FAQ</span>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
               Questions Fréquemment Posées
             </h2>
             <p className="text-muted-foreground">Retrouvez les réponses aux questions les plus posées sur nos services et notre expertise technique.</p>
           </motion.div>
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }} 
-            whileInView={{ opacity: 1, y: 0 }} 
-            viewport={{ once: true }} 
-            className="max-w-3xl mx-auto"
-          >
+          <motion.div {...fadeUp} className="max-w-3xl mx-auto">
             <Accordion type="single" collapsible className="space-y-3">
               {faqs.map((f, i) => (
                 <AccordionItem 

@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import imgDepannage from "@/assets/service-depannage.jpg";
+import imgDepannage from "@/assets/service-depannage-v2.jpg";
 import ProcessSection from "@/components/ProcessSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import QuoteFormSection from "@/components/QuoteFormSection";
@@ -67,11 +67,11 @@ const DepannageExpressPage = () => {
               Volet bloqué ? Moteur en panne ? Vitre cassée ? Notre service de dépannage express intervient dans les plus brefs délais pour rétablir la sécurité et le confort de votre habitat. Disponible 7j/7, diagnostic gratuit, pièces en stock.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
-              <Button size="lg" variant="accent" asChild className="gap-2 shadow-lg shadow-accent/25 rounded-full">
-                <a href="tel:0603205967"><Phone className="h-5 w-5" /> Appeler Maintenant</a>
+              <Button size="lg" variant="accent" asChild className="px-8 py-7 text-lg font-bold rounded-full shadow-xl transition-all duration-300 hover:scale-105">
+                <a href="tel:0603205967" className="flex items-center gap-2"><Phone className="h-5 w-5" /> Appeler Maintenant</a>
               </Button>
-              <Button size="lg" variant="accent-outline" asChild className="gap-2 rounded-full">
-                <Link to="/#devis">Demander un Devis <ArrowRight className="h-5 w-5" /></Link>
+              <Button size="lg" variant="accent-outline" asChild className="px-8 py-7 text-lg font-bold rounded-full transition-all duration-300 hover:scale-105">
+                <Link to="/#devis" className="flex items-center gap-2">Demander un Devis <ArrowRight className="h-5 w-5" /></Link>
               </Button>
             </div>
             <div className="flex flex-wrap gap-3">

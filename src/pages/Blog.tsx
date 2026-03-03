@@ -1,7 +1,8 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Link } from "react-router-dom";
-import { ArrowRight, Calendar, User, ChevronRight, BookOpen } from "lucide-react";
+import { ArrowRight, Calendar, User, ChevronRight, BookOpen, Phone } from "lucide-react";
+import { fadeUp, staggerItem, hoverLift } from "@/lib/animations";
 import { useSEO } from "@/hooks/useSEO";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -65,7 +66,7 @@ const BlogPage = () => {
       {/* Featured Article */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+          <motion.div {...fadeUp}
             className="max-w-4xl mx-auto bg-card rounded-2xl overflow-hidden border border-accent/10 card-shadow hover:card-shadow-hover transition-all">
             {blogArticles[0].image && (
               <div className="h-64 md:h-80 overflow-hidden relative">
@@ -101,11 +102,8 @@ const BlogPage = () => {
             {blogArticles.slice(1).map((article, i) => (
               <motion.div
                 key={article.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.06 }}
-                whileHover={{ y: -4 }}
+                {...staggerItem(i)}
+                {...hoverLift}
                 className="bg-card rounded-xl overflow-hidden border border-border card-shadow hover:card-shadow-hover transition-all"
               >
                 {article.image && (
@@ -142,18 +140,18 @@ const BlogPage = () => {
       {/* CTA + Maillage interne */}
       <section className="py-16 bg-section-gradient">
         <div className="container mx-auto px-4 text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+          <motion.div {...fadeUp}>
             <Badge variant="accent" className="gap-2 px-3 py-1 rounded-full text-sm font-semibold mb-4">Nos Services</Badge>
             <h2 className="font-display text-3xl font-bold text-foreground mb-4">Besoin d'une intervention ?</h2>
             <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
               Nos experts sont disponibles pour vous conseiller et intervenir rapidement. Contactez-nous dès maintenant.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-10">
-              <Button size="lg" variant="accent" asChild className="gap-2 rounded-full shadow-lg shadow-accent/20">
-                <Link to="/#devis">Demander un Devis <ArrowRight className="h-5 w-5" /></Link>
+              <Button size="lg" variant="accent" asChild className="px-8 py-7 text-lg font-bold rounded-full shadow-xl transition-all duration-300 hover:scale-105">
+                <Link to="/#devis" className="flex items-center gap-2">Demander un Devis <ArrowRight className="h-5 w-5" /></Link>
               </Button>
-              <Button size="lg" variant="accent-outline" asChild className="gap-2 rounded-full">
-                <a href="tel:0603205967">06 03 20 59 67</a>
+              <Button size="lg" variant="accent-outline" asChild className="px-8 py-7 text-lg font-bold rounded-full transition-all duration-300 hover:scale-105">
+                <a href="tel:0603205967" className="flex items-center gap-2"><Phone className="h-5 w-5" /> 06 03 20 59 67</a>
               </Button>
             </div>
             {/* Service links - Maillage interne */}
