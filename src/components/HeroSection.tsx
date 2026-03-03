@@ -3,7 +3,7 @@ import { ArrowRight, Shield, Clock, Award, ChevronDown, Phone } from "lucide-rea
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import heroImg from "@/assets/hero-shutters.jpg";
+import heroImg from "@/assets/hero-shutters.webp";
 import { useRef } from "react";
 
 const badges = [

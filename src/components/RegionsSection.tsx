@@ -7,18 +7,18 @@ import { Button } from "@/components/ui/button";
 import { fadeUp } from "@/lib/animations";
 
 const regions = [
-  { name: "Île-de-France", depts: "75, 77, 78, 91, 92, 93, 94, 95", highlight: true, color: "bg-service-blue/5 border-service-blue/20", image: "/images/zones/ile-de-france.jpg", link: "/zones-intervention/ile-de-france" },
-  { name: "Hauts-de-France", depts: "02, 59, 60, 62, 80", color: "bg-service-rose/5 border-service-rose/20", image: "/images/zones/hauts-de-france.jpg", link: "/zones-intervention/hauts-de-france" },
-  { name: "Grand Est", depts: "08, 10, 51, 52, 54, 55, 57, 67, 68, 88", color: "bg-service-emerald/5 border-service-emerald/20", image: "/images/zones/grand-est.jpg", link: "/zones-intervention/grand-est" },
-  { name: "Normandie", depts: "14, 27, 50, 61, 76", color: "bg-service-violet/5 border-service-violet/20", image: "/images/zones/normandie.jpg", link: "/zones-intervention/normandie" },
-  { name: "Bretagne", depts: "22, 29, 35, 56", color: "bg-service-cyan/5 border-service-cyan/20", image: "/images/zones/bretagne.jpg", link: "/zones-intervention/bretagne" },
-  { name: "Pays de la Loire", depts: "44, 49, 53, 72, 85", color: "bg-service-orange/5 border-service-orange/20", image: "/images/zones/pays-de-la-loire.jpg", link: "/zones-intervention/pays-de-la-loire" },
-  { name: "Centre-Val de Loire", depts: "18, 28, 36, 37, 41, 45", color: "bg-service-blue/5 border-service-blue/20", image: "/images/zones/centre-val-de-loire.jpg", link: "/zones-intervention/centre-val-de-loire" },
-  { name: "Bourgogne-Franche-Comté", depts: "21, 25, 39, 58, 70, 71, 89, 90", color: "bg-service-rose/5 border-service-rose/20", image: "/images/zones/bourgogne-franche-comte.jpg", link: "/zones-intervention/bourgogne-franche-comte" },
-  { name: "Nouvelle-Aquitaine", depts: "16, 17, 19, 23, 24, 33, 40, 47, 64, 79, 86, 87", color: "bg-service-emerald/5 border-service-emerald/20", image: "/images/zones/nouvelle-aquitaine.jpg", link: "/zones-intervention/nouvelle-aquitaine" },
-  { name: "Occitanie", depts: "09, 11, 12, 30, 31, 32, 34, 46, 48, 65, 66, 81, 82", color: "bg-service-violet/5 border-service-violet/20", image: "/images/zones/occitanie.jpg", link: "/zones-intervention/occitanie" },
-  { name: "Auvergne-Rhône-Alpes", depts: "01, 03, 07, 15, 26, 38, 42, 43, 63, 69, 73, 74", color: "bg-service-cyan/5 border-service-cyan/20", image: "/images/zones/auvergne-rhone-alpes.jpg", link: "/zones-intervention/auvergne-rhone-alpes" },
-  { name: "Provence-Alpes-Côte d'Azur", depts: "04, 05, 06, 13, 83, 84", color: "bg-service-orange/5 border-service-orange/20", image: "/images/zones/paca.jpg", link: "/zones-intervention/provence-alpes-cote-d-azur" },
+  { name: "Île-de-France", depts: "75, 77, 78, 91, 92, 93, 94, 95", highlight: true, color: "bg-service-blue/5 border-service-blue/20", image: "/images/zones/ile-de-france.webp", link: "/zones-intervention/ile-de-france" },
+  { name: "Hauts-de-France", depts: "02, 59, 60, 62, 80", color: "bg-service-rose/5 border-service-rose/20", image: "/images/zones/hauts-de-france.webp", link: "/zones-intervention/hauts-de-france" },
+  { name: "Grand Est", depts: "08, 10, 51, 52, 54, 55, 57, 67, 68, 88", color: "bg-service-emerald/5 border-service-emerald/20", image: "/images/zones/grand-est.webp", link: "/zones-intervention/grand-est" },
+  { name: "Normandie", depts: "14, 27, 50, 61, 76", color: "bg-service-violet/5 border-service-violet/20", image: "/images/zones/normandie.webp", link: "/zones-intervention/normandie" },
+  { name: "Bretagne", depts: "22, 29, 35, 56", color: "bg-service-cyan/5 border-service-cyan/20", image: "/images/zones/bretagne.webp", link: "/zones-intervention/bretagne" },
+  { name: "Pays de la Loire", depts: "44, 49, 53, 72, 85", color: "bg-service-orange/5 border-service-orange/20", image: "/images/zones/pays-de-la-loire.webp", link: "/zones-intervention/pays-de-la-loire" },
+  { name: "Centre-Val de Loire", depts: "18, 28, 36, 37, 41, 45", color: "bg-service-blue/5 border-service-blue/20", image: "/images/zones/centre-val-de-loire.webp", link: "/zones-intervention/centre-val-de-loire" },
+  { name: "Bourgogne-Franche-Comté", depts: "21, 25, 39, 58, 70, 71, 89, 90", color: "bg-service-rose/5 border-service-rose/20", image: "/images/zones/bourgogne-franche-comte.webp", link: "/zones-intervention/bourgogne-franche-comte" },
+  { name: "Nouvelle-Aquitaine", depts: "16, 17, 19, 23, 24, 33, 40, 47, 64, 79, 86, 87", color: "bg-service-emerald/5 border-service-emerald/20", image: "/images/zones/nouvelle-aquitaine.webp", link: "/zones-intervention/nouvelle-aquitaine" },
+  { name: "Occitanie", depts: "09, 11, 12, 30, 31, 32, 34, 46, 48, 65, 66, 81, 82", color: "bg-service-violet/5 border-service-violet/20", image: "/images/zones/occitanie.webp", link: "/zones-intervention/occitanie" },
+  { name: "Auvergne-Rhône-Alpes", depts: "01, 03, 07, 15, 26, 38, 42, 43, 63, 69, 73, 74", color: "bg-service-cyan/5 border-service-cyan/20", image: "/images/zones/auvergne-rhone-alpes.webp", link: "/zones-intervention/auvergne-rhone-alpes" },
+  { name: "Provence-Alpes-Côte d'Azur", depts: "04, 05, 06, 13, 83, 84", color: "bg-service-orange/5 border-service-orange/20", image: "/images/zones/paca.webp", link: "/zones-intervention/provence-alpes-cote-d-azur" },
 ];
 
 const RegionsSection = () => {

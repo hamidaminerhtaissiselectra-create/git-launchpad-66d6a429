@@ -3,11 +3,11 @@ import { Wrench, GlassWater, Cpu, LayoutGrid, Zap, ArrowRight, Shield } from "lu
 import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { fadeUp, staggerItem, hoverLiftMd } from "@/lib/animations";
-import imgReparation from "@/assets/service-reparation-v2.jpg";
-import imgVitrerie from "@/assets/service-vitrerie-v2.jpg";
-import imgMotorisation from "@/assets/service-motorisation-v2.jpg";
-import imgComplete from "@/assets/service-installation-v2.jpg";
-import imgDepannage from "@/assets/service-depannage-v2.jpg";
+import imgReparation from "@/assets/service-reparation-v2.webp";
+import imgVitrerie from "@/assets/service-vitrerie-v2.webp";
+import imgMotorisation from "@/assets/service-motorisation-v2.webp";
+import imgComplete from "@/assets/service-installation-v2.webp";
+import imgDepannage from "@/assets/service-depannage-v2.webp";
 
 const services = [
   {

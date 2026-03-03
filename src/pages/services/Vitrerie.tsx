@@ -7,21 +7,21 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import imgVitrerie from "@/assets/service-vitrerie-v2.jpg";
+import imgVitrerie from "@/assets/service-vitrerie-v2.webp";
 import ProcessSection from "@/components/ProcessSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import QuoteFormSection from "@/components/QuoteFormSection";
 import RepairShowcaseSection from "@/components/RepairShowcaseSection";
 import ServiceRegionsSection from "@/components/ServiceRegionsSection";
 import FAQSection from "@/components/FAQSection";
-import glazierTechnicianImg from "@/assets/glazier-technician-section.jpg";
+import glazierTechnicianImg from "@/assets/glazier-technician-section.webp";
 import { fadeUp, staggerItem, hoverLift, heroEntry } from "@/lib/animations";
 
 const typesVitrage = [
   { title: "Double vitrage thermique", desc: "La solution standard pour une isolation thermique et phonique efficace. Réduit les pertes de chaleur de 40%.", features: ["Isolation thermique 40%+", "Isolation phonique", "Standard construction neuve"], color: "border-service-emerald/20", badgeColor: "bg-service-emerald/10 text-service-emerald border-service-emerald/20", image: "/images/vitrage/double-vitrage.webp", data: ["U-Value : 1.1 W/m²K", "Épaisseur : 4/16/4", "Gaz Argon inclus"] },
-  { title: "Vitrage anti-effraction", desc: "Vitrage feuilleté de sécurité avec film PVB. Résiste aux tentatives d'intrusion et protège contre les blessures.", features: ["Retarde les intrusions", "Sécurité anti-blessure", "Norme EN 356"], color: "border-service-rose/20", badgeColor: "bg-service-rose/10 text-service-rose border-service-rose/20", image: "/images/vitrage/feuillete.jpg", data: ["Classe : P2A à P5A", "Film PVB renforcé", "Anti-éclats"] },
-  { title: "Vitrage dépoli & Intimité", desc: "Vitrage traité à l'acide pour un aspect translucide. Laisse passer la lumière tout en préservant votre intimité.", features: ["Intimité totale", "Lumière naturelle", "Design moderne"], color: "border-service-violet/20", badgeColor: "bg-service-violet/10 text-service-violet border-service-violet/20", image: "/images/vitrage/depoli.jpg", data: ["Finition : Dépoli acide", "Usage : SDB / Bureau", "Facile d'entretien"] },
-  { title: "Vitrage acoustique", desc: "Composition asymétrique spécifique pour réduire drastiquement les nuisances sonores. Idéal pour les zones urbaines.", features: ["Réduction -35 dB", "Zones urbaines", "Composition asymétrique"], color: "border-service-cyan/20", badgeColor: "bg-service-cyan/10 text-service-cyan border-service-cyan/20", image: "/images/vitrage/phonique.jpg", data: ["Atténuation : 35-40 dB", "Verre asymétrique", "Confort phonique"] },
+  { title: "Vitrage anti-effraction", desc: "Vitrage feuilleté de sécurité avec film PVB. Résiste aux tentatives d'intrusion et protège contre les blessures.", features: ["Retarde les intrusions", "Sécurité anti-blessure", "Norme EN 356"], color: "border-service-rose/20", badgeColor: "bg-service-rose/10 text-service-rose border-service-rose/20", image: "/images/vitrage/feuillete.webp", data: ["Classe : P2A à P5A", "Film PVB renforcé", "Anti-éclats"] },
+  { title: "Vitrage dépoli & Intimité", desc: "Vitrage traité à l'acide pour un aspect translucide. Laisse passer la lumière tout en préservant votre intimité.", features: ["Intimité totale", "Lumière naturelle", "Design moderne"], color: "border-service-violet/20", badgeColor: "bg-service-violet/10 text-service-violet border-service-violet/20", image: "/images/vitrage/depoli.webp", data: ["Finition : Dépoli acide", "Usage : SDB / Bureau", "Facile d'entretien"] },
+  { title: "Vitrage acoustique", desc: "Composition asymétrique spécifique pour réduire drastiquement les nuisances sonores. Idéal pour les zones urbaines.", features: ["Réduction -35 dB", "Zones urbaines", "Composition asymétrique"], color: "border-service-cyan/20", badgeColor: "bg-service-cyan/10 text-service-cyan border-service-cyan/20", image: "/images/vitrage/phonique.webp", data: ["Atténuation : 35-40 dB", "Verre asymétrique", "Confort phonique"] },
 ];
 
 const urgences = [

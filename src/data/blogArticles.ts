@@ -21,7 +21,7 @@ export const blogArticles: BlogArticle[] = [
     category: "Entretien",
     slug: "entretien-volets",
     metaDescription: "Guide complet d'entretien des volets roulants : nettoyage, lubrification, vérification des joints. Conseils professionnels par Répar'Action Volets.",
-    image: "/images/blog/entretien-volets.jpg",
+    image: "/images/blog/entretien-volets.webp",
     content: `## Pourquoi l'entretien des volets roulants est crucial ?
 
 Un volet roulant bien entretenu dure **plus de 20 ans** et fonctionne de manière optimale. L'entretien régulier prévient les pannes coûteuses et garantit votre sécurité. Chez **Répar'Action Volets**, nous constatons que 70% des pannes auraient pu être évitées par un entretien régulier.
@@ -73,7 +73,7 @@ Contactez **Répar'Action Volets** si vous constatez : des bruits anormaux persi
     category: "Motorisation",
     slug: "somfy-vs-bubendorff",
     metaDescription: "Comparatif Somfy vs Bubendorff 2026 : prix, fonctionnalités, domotique. Guide expert par Répar'Action Volets pour choisir votre motorisation.",
-    image: "/images/blog/somfy-vs-bubendorff.jpg",
+    image: "/images/blog/somfy-vs-bubendorff.webp",
     content: `## Somfy vs Bubendorff : Le comparatif définitif 2026
 
 Choisir entre **Somfy** et **Bubendorff** est l'une des décisions les plus importantes lors de la motorisation de vos volets roulants. Chez **Répar'Action Volets**, nous installons les deux marques depuis plus de 10 ans. Voici notre analyse experte.
@@ -146,7 +146,7 @@ Chez **Répar'Action Volets**, nous vous accompagnons dans votre choix. Contacte
     category: "Motorisation",
     slug: "guide-motorisation",
     metaDescription: "Guide complet motorisation volets roulants 2026 : types de moteurs, prix, avantages, processus d'installation. Conseils experts Répar'Action Volets.",
-    image: "/images/blog/guide-motorisation.jpg",
+    image: "/images/blog/guide-motorisation.webp",
     content: `## Pourquoi motoriser vos volets roulants en 2026 ?
 
 La motorisation des volets roulants n'est plus un luxe — c'est un investissement intelligent qui améliore votre quotidien. En 2026, les solutions sont plus accessibles et performantes que jamais.
@@ -212,7 +212,7 @@ Contactez-nous au **06 03 20 59 67** pour un devis gratuit.`
     category: "Tarifs",
     slug: "prix-reparation-volet-roulant",
     metaDescription: "Prix réparation volet roulant 2026 : tarifs détaillés par type de panne. De 80€ à 300€. Devis gratuit Répar'Action Volets. Guide complet.",
-    image: "/images/blog/prix-reparation.jpg",
+    image: "/images/blog/prix-reparation.webp",
     content: `## Combien coûte la réparation d'un volet roulant en 2026 ?
 
 Le coût de réparation d'un volet roulant varie entre **80€ et 300€** en moyenne, selon la nature de la panne et le type de volet. Chez **Répar'Action Volets**, nous pratiquons des tarifs transparents avec devis gratuit systématique.
@@ -266,7 +266,7 @@ Chez **Répar'Action Volets**, le diagnostic est toujours gratuit et sans engage
     category: "Installation",
     slug: "comment-choisir-volet-roulant",
     metaDescription: "Guide complet pour choisir son volet roulant en 2026 : matériaux, motorisation, isolation. Comparatif aluminium vs PVC vs bois. Répar'Action Volets.",
-    image: "/images/blog/choisir-volet.jpg",
+    image: "/images/blog/choisir-volet.webp",
     content: `## Comment choisir le volet roulant idéal pour votre maison ?
 
 Le choix d'un volet roulant est un investissement important qui impacte le confort, la sécurité et la valeur de votre bien immobilier. Ce guide vous aide à faire le meilleur choix en 2026.
@@ -331,7 +331,7 @@ Contactez **Répar'Action Volets** au **06 03 20 59 67** pour un conseil personn
     category: "Dépannage",
     slug: "volet-roulant-bloque-que-faire",
     metaDescription: "Volet roulant bloqué ? Causes et solutions pour débloquer votre volet rapidement. Guide de dépannage express par Répar'Action Volets.",
-    image: "/images/blog/volet-bloque.jpg",
+    image: "/images/blog/volet-bloque.webp",
     content: `## Volet roulant bloqué : ne paniquez pas !
 
 Un volet roulant bloqué est l'une des pannes les plus fréquentes et les plus stressantes. Qu'il soit bloqué en position **ouverte** (problème de sécurité) ou **fermée** (manque de lumière), voici comment réagir.
@@ -388,7 +388,7 @@ Nous intervenons **sous 48h** (le jour même pour les urgences de sécurité). D
     category: "Vitrerie",
     slug: "double-vitrage-avantages-prix",
     metaDescription: "Double vitrage 2026 : avantages, prix détaillés et aides financières. Guide complet isolation thermique et phonique. Répar'Action Volets.",
-    image: "/images/blog/vitrerie.jpg",
+    image: "/images/blog/vitrerie.webp",
     content: `## Double vitrage : tout savoir en 2026
 
 Le double vitrage est devenu le standard incontournable pour toute construction ou rénovation. Chez **Répar'Action Volets**, nous posons et remplaçons des vitrages dans toute la France.
@@ -455,7 +455,7 @@ En cas de vitre cassée, **Répar'Action Volets** intervient en urgence **7j/7**
     category: "Domotique",
     slug: "domotique-volets-tout-savoir",
     metaDescription: "Guide domotique volets roulants 2026 : Somfy TaHoma, Google Home, Alexa. Installation, prix et avantages. Répar'Action Volets expert connecté.",
-    image: "/images/blog/domotique-volets.jpg",
+    image: "/images/blog/domotique-volets.webp",
     content: `## La domotique appliquée aux volets roulants : guide complet
 
 La domotique permet de contrôler vos volets roulants depuis votre **smartphone**, votre **montre connectée** ou par la **voix**. En 2026, les solutions sont matures, accessibles et fiables.
@@ -523,7 +523,7 @@ Nous prenons en charge l'intégralité de votre projet domotique : conseil, four
     category: "Économies",
     slug: "isolation-thermique-volets-roulants",
     metaDescription: "Isolation thermique volets roulants : réduisez vos factures de 25%. Guide complet performances énergétiques. Répar'Action Volets expert isolation.",
-    image: "/images/blog/isolation-thermique.jpg",
+    image: "/images/blog/isolation-thermique.webp",
     content: `## Volets roulants et isolation thermique : un duo gagnant
 
 Les volets roulants sont bien plus qu'une protection contre le soleil et les regards. Correctement choisis et installés, ils peuvent réduire vos déperditions thermiques de **10 à 25%** et alléger significativement votre facture énergétique.
@@ -587,7 +587,7 @@ Contactez **Répar'Action Volets** au **06 03 20 59 67** pour un bilan thermique
     category: "Financement",
     slug: "aides-financieres-renovation-volets-2026",
     metaDescription: "Aides rénovation volets 2026 : MaPrimeRénov', TVA 5,5%, Éco-PTZ, CEE. Guide complet des subventions. Répar'Action Volets certifié RGE.",
-    image: "/images/blog/aides-financieres.jpg",
+    image: "/images/blog/aides-financieres.webp",
     content: `## Les aides financières pour rénover vos volets en 2026
 
 Bonne nouvelle : en 2026, de nombreuses aides financières sont disponibles pour vous aider à remplacer ou installer des volets roulants performants. Chez **Répar'Action Volets**, artisan certifié **RGE**, nous vous accompagnons dans toutes vos démarches.

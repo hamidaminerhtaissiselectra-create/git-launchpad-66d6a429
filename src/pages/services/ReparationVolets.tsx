@@ -7,23 +7,23 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import imgReparation from "@/assets/service-reparation-v2.jpg";
+import imgReparation from "@/assets/service-reparation-v2.webp";
 import ProcessSection from "@/components/ProcessSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import QuoteFormSection from "@/components/QuoteFormSection";
 import RepairShowcaseSection from "@/components/RepairShowcaseSection";
 import ServiceRegionsSection from "@/components/ServiceRegionsSection";
 import FAQSection from "@/components/FAQSection";
-import repairTechnicianImg from "@/assets/repair-technician-section.jpg";
+import repairTechnicianImg from "@/assets/repair-technician-section.webp";
 import { fadeUp, staggerItem, hoverLift, heroEntry } from "@/lib/animations";
 
 const pannesCourantes = [
-  { title: "Volet roulant bloqué", desc: "Votre volet ne monte plus ou ne descend plus ? Le problème peut venir d'une lame cassée, d'un axe d'enroulement tordu ou d'un verrou bloqué.", urgence: true, color: "border-service-rose/20", image: "/images/pannes/volet-bloque.jpg", data: ["Diagnostic en 15 min", "Pièces d'origine", "Réparation immédiate"] },
-  { title: "Sangle ou manivelle cassée", desc: "La sangle est effilochée ou la manivelle ne tourne plus ? Remplacement rapide par un mécanisme neuf, identique ou amélioré.", urgence: false, color: "border-service-blue/20", image: "/images/pannes/sangle-cassee.jpg", data: ["Sangles haute résistance", "Manivelles renforcées", "Pose incluse"] },
-  { title: "Moteur électrique HS", desc: "Le moteur ne répond plus, fait un bruit anormal ou surchauffe ? Diagnostic du condensateur, du câblage et du moteur.", urgence: false, color: "border-service-orange/20", image: "/images/pannes/moteur-hs.jpg", data: ["Moteurs Somfy/Bubendorff", "Garantie 5 ans moteur", "Réglage fins de course"] },
-  { title: "Lames abîmées ou tordues", desc: "Lames fissurées, déformées ou arrachées par le vent ? Remplacement à l'identique sans démonter tout le volet.", urgence: false, color: "border-service-emerald/20", image: "/images/pannes/lames-abimees.jpg", data: ["Lames PVC ou Alu", "Coloris sur mesure", "Isolation renforcée"] },
-  { title: "Tablier sorti des rails", desc: "Le tablier s'est décalé et ne glisse plus correctement dans les coulisses ? Remise en place et ajustement.", urgence: true, color: "border-service-violet/20", image: "/images/pannes/tablier-sorti.jpg", data: ["Remise en axe", "Nettoyage coulisses", "Graissage silicone"] },
-  { title: "Télécommande ou récepteur HS", desc: "Votre volet électrique ne répond plus à la télécommande ? Reprogrammation, changement de pile ou remplacement du récepteur.", urgence: false, color: "border-service-cyan/20", image: "/images/pannes/telecommande-hs.jpg", data: ["Centralisation possible", "Émetteurs radio", "Domotique compatible"] },
+  { title: "Volet roulant bloqué", desc: "Votre volet ne monte plus ou ne descend plus ? Le problème peut venir d'une lame cassée, d'un axe d'enroulement tordu ou d'un verrou bloqué.", urgence: true, color: "border-service-rose/20", image: "/images/pannes/volet-bloque.webp", data: ["Diagnostic en 15 min", "Pièces d'origine", "Réparation immédiate"] },
+  { title: "Sangle ou manivelle cassée", desc: "La sangle est effilochée ou la manivelle ne tourne plus ? Remplacement rapide par un mécanisme neuf, identique ou amélioré.", urgence: false, color: "border-service-blue/20", image: "/images/pannes/sangle-cassee.webp", data: ["Sangles haute résistance", "Manivelles renforcées", "Pose incluse"] },
+  { title: "Moteur électrique HS", desc: "Le moteur ne répond plus, fait un bruit anormal ou surchauffe ? Diagnostic du condensateur, du câblage et du moteur.", urgence: false, color: "border-service-orange/20", image: "/images/pannes/moteur-hs.webp", data: ["Moteurs Somfy/Bubendorff", "Garantie 5 ans moteur", "Réglage fins de course"] },
+  { title: "Lames abîmées ou tordues", desc: "Lames fissurées, déformées ou arrachées par le vent ? Remplacement à l'identique sans démonter tout le volet.", urgence: false, color: "border-service-emerald/20", image: "/images/pannes/lames-abimees.webp", data: ["Lames PVC ou Alu", "Coloris sur mesure", "Isolation renforcée"] },
+  { title: "Tablier sorti des rails", desc: "Le tablier s'est décalé et ne glisse plus correctement dans les coulisses ? Remise en place et ajustement.", urgence: true, color: "border-service-violet/20", image: "/images/pannes/tablier-sorti.webp", data: ["Remise en axe", "Nettoyage coulisses", "Graissage silicone"] },
+  { title: "Télécommande ou récepteur HS", desc: "Votre volet électrique ne répond plus à la télécommande ? Reprogrammation, changement de pile ou remplacement du récepteur.", urgence: false, color: "border-service-cyan/20", image: "/images/pannes/telecommande-hs.webp", data: ["Centralisation possible", "Émetteurs radio", "Domotique compatible"] },
 ];
 
 const ReparationVoletsPage = () => {

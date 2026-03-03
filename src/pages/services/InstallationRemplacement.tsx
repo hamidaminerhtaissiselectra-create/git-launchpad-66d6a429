@@ -7,14 +7,14 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import imgInstallation from "@/assets/service-installation-v2.jpg";
+import imgInstallation from "@/assets/service-installation-v2.webp";
 import ProcessSection from "@/components/ProcessSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import QuoteFormSection from "@/components/QuoteFormSection";
 import RepairShowcaseSection from "@/components/RepairShowcaseSection";
 import ServiceRegionsSection from "@/components/ServiceRegionsSection";
 import FAQSection from "@/components/FAQSection";
-import installationTechnicianImg from "@/assets/installation-technician-section.jpg";
+import installationTechnicianImg from "@/assets/installation-technician-section.webp";
 import { fadeUp, staggerItem, hoverLift, heroEntry } from "@/lib/animations";
 
 const avantages = [
@@ -25,9 +25,9 @@ const avantages = [
 ];
 
 const types = [
-  { title: "Volets roulants en aluminium", desc: "Le choix le plus populaire. L'aluminium offre le meilleur rapport poids/résistance, une excellente isolation thermique et une durabilité exceptionnelle.", points: ["Léger et résistant", "Isolation thermique et phonique", "200+ coloris disponibles", "Durée de vie 20+ ans"], color: "border-service-blue/20", badge: "Populaire", badgeColor: "bg-service-blue/10 text-service-blue border-service-blue/20", image: "/images/materiaux/alu.jpg", data: ["Isolation : R=0.25", "Résistance : Haute", "Entretien : Nul"] },
-  { title: "Volets roulants en PVC", desc: "Solution économique et performante, les volets en PVC offrent un bon niveau d'isolation et une grande facilité d'entretien.", points: ["Prix accessible", "Entretien minimal", "Bonne isolation", "Résistance aux UV"], color: "border-service-emerald/20", badge: "Économique", badgeColor: "bg-service-emerald/10 text-service-emerald border-service-emerald/20", image: "/images/materiaux/pvc.jpg", data: ["Isolation : R=0.22", "Résistance : Moyenne", "Entretien : Eau savonneuse"] },
-  { title: "Volets roulants solaires", desc: "Installation de volets solaires autonomes avec panneau photovoltaïque intégré. Idéaux en rénovation car ils ne nécessitent aucun raccordement électrique.", points: ["Zéro câblage", "Énergie gratuite", "Autonomie 45 jours", "Marques Somfy/Bubendorff"], color: "border-service-orange/20", badge: "Éco-Responsable", badgeColor: "bg-service-orange/10 text-service-orange border-service-orange/20", image: "/images/materiaux/solaire.jpg", data: ["Installation : 1h", "Batterie : 10 ans", "Économie : 100% élec"] },
+  { title: "Volets roulants en aluminium", desc: "Le choix le plus populaire. L'aluminium offre le meilleur rapport poids/résistance, une excellente isolation thermique et une durabilité exceptionnelle.", points: ["Léger et résistant", "Isolation thermique et phonique", "200+ coloris disponibles", "Durée de vie 20+ ans"], color: "border-service-blue/20", badge: "Populaire", badgeColor: "bg-service-blue/10 text-service-blue border-service-blue/20", image: "/images/materiaux/alu.webp", data: ["Isolation : R=0.25", "Résistance : Haute", "Entretien : Nul"] },
+  { title: "Volets roulants en PVC", desc: "Solution économique et performante, les volets en PVC offrent un bon niveau d'isolation et une grande facilité d'entretien.", points: ["Prix accessible", "Entretien minimal", "Bonne isolation", "Résistance aux UV"], color: "border-service-emerald/20", badge: "Économique", badgeColor: "bg-service-emerald/10 text-service-emerald border-service-emerald/20", image: "/images/materiaux/pvc.webp", data: ["Isolation : R=0.22", "Résistance : Moyenne", "Entretien : Eau savonneuse"] },
+  { title: "Volets roulants solaires", desc: "Installation de volets solaires autonomes avec panneau photovoltaïque intégré. Idéaux en rénovation car ils ne nécessitent aucun raccordement électrique.", points: ["Zéro câblage", "Énergie gratuite", "Autonomie 45 jours", "Marques Somfy/Bubendorff"], color: "border-service-orange/20", badge: "Éco-Responsable", badgeColor: "bg-service-orange/10 text-service-orange border-service-orange/20", image: "/images/materiaux/solaire.webp", data: ["Installation : 1h", "Batterie : 10 ans", "Économie : 100% élec"] },
 ];
 
 const InstallationRemplacementPage = () => {

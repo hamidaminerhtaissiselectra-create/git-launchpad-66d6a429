@@ -7,17 +7,17 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import imgMotorisation from "@/assets/service-motorisation-v2.jpg";
+import imgMotorisation from "@/assets/service-motorisation-v2.webp";
 import ProcessSection from "@/components/ProcessSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import QuoteFormSection from "@/components/QuoteFormSection";
 import RepairShowcaseSection from "@/components/RepairShowcaseSection";
 import ServiceRegionsSection from "@/components/ServiceRegionsSection";
 import FAQSection from "@/components/FAQSection";
-import motorizationWiredImg from "@/assets/motorization-wired.jpg";
-import motorizationRadioImg from "@/assets/motorization-radio.jpg";
-import motorizationSmartImg from "@/assets/motorization-smart.jpg";
-import motorizationTechnicianImg from "@/assets/motorization-technician-section.jpg";
+import motorizationWiredImg from "@/assets/motorization-wired.webp";
+import motorizationRadioImg from "@/assets/motorization-radio.webp";
+import motorizationSmartImg from "@/assets/motorization-smart.webp";
+import motorizationTechnicianImg from "@/assets/motorization-technician-section.webp";
 import { fadeUp, staggerItem, hoverLift, heroEntry } from "@/lib/animations";
 
 const solutions = [

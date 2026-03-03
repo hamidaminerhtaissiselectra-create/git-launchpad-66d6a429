@@ -12,9 +12,9 @@ import QuoteFormSection from "@/components/QuoteFormSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ServiceRegionsSection from "@/components/ServiceRegionsSection";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import aboutTeamImg from "@/assets/about-team-v2.jpg";
-import aboutValuesImg from "@/assets/about-values.jpg";
-import aboutExpertiseImg from "@/assets/about-expertise-v2.jpg";
+import aboutTeamImg from "@/assets/about-team-v2.webp";
+import aboutValuesImg from "@/assets/about-values.webp";
+import aboutExpertiseImg from "@/assets/about-expertise-v2.webp";
 
 const expertiseItems = [
   { icon: Trophy, title: "10+ ans d'expérience", desc: "Depuis plus de 10 ans, nous intervenons sur des milliers de volets roulants. Notre expérience nous permet de diagnostiquer et résoudre rapidement tout type de panne.", color: "bg-service-blue", iconShadow: "shadow-[0_4px_14px_hsl(213,72%,50%,0.35)]" },

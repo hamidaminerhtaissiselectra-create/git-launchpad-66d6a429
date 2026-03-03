@@ -15,7 +15,7 @@ export const useSEO = ({
   description, 
   keywords, 
   canonicalUrl,
-  ogImage = 'https://reparaction-volets.fr/images/og-image.jpg',
+  ogImage = 'https://reparaction-volets.fr/images/og-image.webp',
   ogType = 'website',
   noIndex = false
 }: SEOProps) => {

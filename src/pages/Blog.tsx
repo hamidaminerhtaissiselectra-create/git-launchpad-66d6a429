@@ -9,7 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { blogArticles } from "@/data/blogArticles";
-import blogHeroImg from "@/assets/blog-hero.jpg";
+import blogHeroImg from "@/assets/blog-hero.webp";
 
 const BlogPage = () => {
   const heroRef = useRef<HTMLElement>(null);

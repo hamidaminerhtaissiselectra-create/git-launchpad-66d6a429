@@ -18,7 +18,7 @@ const Index = () => {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Répar'Action Volets",
-      "image": "https://reparaction-volets.fr/og-image.jpg",
+      "image": "https://reparaction-volets.fr/og-image.webp",
       "url": "https://reparaction-volets.fr",
       "telephone": "+33603205967",
       "email": "contact@reparaction-volets.fr",

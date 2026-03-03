@@ -34,7 +34,7 @@ const ImageTextSection = () => {
           >
             <div className="relative rounded-2xl overflow-hidden card-shadow">
               <img
-                src="/repair-service-v2.jpg"
+                src="/repair-service-v2.webp"
                 alt="Technicien certifié RGE réparant un volet roulant à Paris"
                 className="w-full h-auto object-cover"
               />

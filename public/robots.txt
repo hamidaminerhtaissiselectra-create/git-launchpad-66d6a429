@@ -1,16 +1,39 @@
+# Robots.txt optimisé pour Répar'Action Volets
+# Permet à tous les moteurs de recherche d'explorer le site
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Directives spécifiques pour Google
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 0
 
+# Directives spécifiques pour Bing
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
+# Directives spécifiques pour les réseaux sociaux
 User-agent: Twitterbot
 Allow: /
 
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
+User-agent: LinkedInBot
 Allow: /
 
+User-agent: WhatsApp
+Allow: /
+
+# Sitemap principal (CRITIQUE pour l'indexation)
 Sitemap: https://reparaction-volets.fr/sitemap.xml
+
+# Temps de chargement des pages (en secondes)
+# Cela aide Google à mieux crawler votre site
+Request-rate: 30/1m

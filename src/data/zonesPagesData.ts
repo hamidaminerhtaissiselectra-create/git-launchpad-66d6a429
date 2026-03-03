@@ -49,7 +49,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 6ème", slug: "reparation-volet-paris-6" },
       { label: "Paris 7ème", slug: "reparation-volet-paris-7" },
     ],
-    image: "/images/zones/paris-1.jpg",
+    image: "/images/zones/paris-1.webp",
   },
   {
     name: "Paris 2ème",
@@ -78,7 +78,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 9ème", slug: "reparation-volet-paris-9" },
       { label: "Paris 10ème", slug: "reparation-volet-paris-10" },
     ],
-    image: "/images/zones/paris-2.jpg",
+    image: "/images/zones/paris-2.webp",
   },
   {
     name: "Paris 3ème",
@@ -107,7 +107,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 10ème", slug: "reparation-volet-paris-10" },
       { label: "Paris 11ème", slug: "reparation-volet-paris-11" },
     ],
-    image: "/images/zones/paris-3.jpg",
+    image: "/images/zones/paris-3.webp",
   },
   {
     name: "Paris 4ème",
@@ -136,7 +136,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 5ème", slug: "reparation-volet-paris-5" },
       { label: "Paris 11ème", slug: "reparation-volet-paris-11" },
     ],
-    image: "/images/zones/paris-4.jpg",
+    image: "/images/zones/paris-4.webp",
   },
   {
     name: "Paris 5ème",
@@ -165,7 +165,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 13ème", slug: "reparation-volet-paris-13" },
       { label: "Paris 14ème", slug: "reparation-volet-paris-14" },
     ],
-    image: "/images/zones/paris-5.jpg",
+    image: "/images/zones/paris-5.webp",
   },
   {
     name: "Paris 6ème",
@@ -194,7 +194,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 14ème", slug: "reparation-volet-paris-14" },
       { label: "Paris 15ème", slug: "reparation-volet-paris-15" },
     ],
-    image: "/images/zones/paris-6.jpg",
+    image: "/images/zones/paris-6.webp",
   },
   {
     name: "Paris 7ème",
@@ -223,7 +223,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 15ème", slug: "reparation-volet-paris-15" },
       { label: "Paris 16ème", slug: "reparation-volet-paris-16" },
     ],
-    image: "/images/zones/paris-7.jpg",
+    image: "/images/zones/paris-7.webp",
   },
   {
     name: "Paris 8ème",
@@ -252,7 +252,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 16ème", slug: "reparation-volet-paris-16" },
       { label: "Paris 17ème", slug: "reparation-volet-paris-17" },
     ],
-    image: "/images/zones/paris-8.jpg",
+    image: "/images/zones/paris-8.webp",
   },
   {
     name: "Paris 9ème",
@@ -281,7 +281,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 10ème", slug: "reparation-volet-paris-10" },
       { label: "Paris 18ème", slug: "reparation-volet-paris-18" },
     ],
-    image: "/images/zones/paris-9.jpg",
+    image: "/images/zones/paris-9.webp",
   },
   {
     name: "Paris 10ème",
@@ -310,7 +310,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 11ème", slug: "reparation-volet-paris-11" },
       { label: "Paris 19ème", slug: "reparation-volet-paris-19" },
     ],
-    image: "/images/zones/paris-10.jpg",
+    image: "/images/zones/paris-10.webp",
   },
   {
     name: "Paris 11ème",
@@ -339,7 +339,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 12ème", slug: "reparation-volet-paris-12" },
       { label: "Paris 20ème", slug: "reparation-volet-paris-20" },
     ],
-    image: "/images/zones/paris-11.jpg",
+    image: "/images/zones/paris-11.webp",
   },
   {
     name: "Paris 12ème",
@@ -368,7 +368,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 13ème", slug: "reparation-volet-paris-13" },
       { label: "Vincennes", slug: "reparation-volet-vincennes" },
     ],
-    image: "/images/zones/paris-12.jpg",
+    image: "/images/zones/paris-12.webp",
   },
   {
     name: "Paris 13ème",
@@ -397,7 +397,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 14ème", slug: "reparation-volet-paris-14" },
       { label: "Ivry-sur-Seine", slug: "reparation-volet-ivrysur-seine" },
     ],
-    image: "/images/zones/paris-13.jpg",
+    image: "/images/zones/paris-13.webp",
   },
   {
     name: "Paris 14ème",
@@ -426,7 +426,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 13ème", slug: "reparation-volet-paris-13" },
       { label: "Paris 15ème", slug: "reparation-volet-paris-15" },
     ],
-    image: "/images/zones/paris-14.jpg",
+    image: "/images/zones/paris-14.webp",
   },
   {
     name: "Paris 15ème",
@@ -455,7 +455,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 16ème", slug: "reparation-volet-paris-16" },
       { label: "Boulogne-Billancourt", slug: "reparation-volet-boulogne-billancourt" },
     ],
-    image: "/images/zones/paris-15.jpg",
+    image: "/images/zones/paris-15.webp",
   },
   {
     name: "Paris 16ème",
@@ -484,7 +484,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 15ème", slug: "reparation-volet-paris-15" },
       { label: "Neuilly-sur-Seine", slug: "reparation-volet-neuillysur-seine" },
     ],
-    image: "/images/zones/paris-16.jpg",
+    image: "/images/zones/paris-16.webp",
   },
   {
     name: "Paris 17ème",
@@ -513,7 +513,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 18ème", slug: "reparation-volet-paris-18" },
       { label: "Levallois-Perret", slug: "reparation-volet-levallois-perret" },
     ],
-    image: "/images/zones/paris-17.jpg",
+    image: "/images/zones/paris-17.webp",
   },
   {
     name: "Paris 18ème",
@@ -542,7 +542,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 19ème", slug: "reparation-volet-paris-19" },
       { label: "Saint-Ouen", slug: "reparation-volet-saint-ouen" },
     ],
-    image: "/images/zones/paris-18.jpg",
+    image: "/images/zones/paris-18.webp",
   },
   {
     name: "Paris 19ème",
@@ -571,7 +571,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 20ème", slug: "reparation-volet-paris-20" },
       { label: "Pantin", slug: "reparation-volet-pantin" },
     ],
-    image: "/images/zones/paris-19.jpg",
+    image: "/images/zones/paris-19.webp",
   },
   {
     name: "Paris 20ème",
@@ -600,7 +600,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Montreuil", slug: "reparation-volet-montreuil" },
       { label: "Bagnolet", slug: "reparation-volet-bagnolet" },
     ],
-    image: "/images/zones/paris-20.jpg",
+    image: "/images/zones/paris-20.webp",
   },
 
   // ── Banlieue & Île-de-France ──
@@ -715,7 +715,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Sevres", slug: "reparation-volet-sevres" },
       { label: "Saint-Cloud", slug: "reparation-volet-saint-cloud" },
     ],
-    image: "/images/zones/boulogne.jpg",
+    image: "/images/zones/boulogne.webp",
   },
   {
     name: "Cergy",
@@ -828,7 +828,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Vitry-sur-Seine", slug: "reparation-volet-vitrysur-seine" },
       { label: "Saint-Mandé", slug: "reparation-volet-saint-mande" },
     ],
-    image: "/images/zones/creteil.jpg",
+    image: "/images/zones/creteil.webp",
   },
   {
     name: "Fontenay-sous-Bois",
@@ -1053,7 +1053,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 17ème", slug: "reparation-volet-paris-17" },
       { label: "Courbevoie", slug: "reparation-volet-courbevoie" },
     ],
-    image: "/images/zones/neuilly.jpg",
+    image: "/images/zones/neuilly.webp",
   },
   {
     name: "Noisy-le-Sec",
@@ -1278,7 +1278,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Paris 18ème", slug: "reparation-volet-paris-18" },
       { label: "Pantin", slug: "reparation-volet-pantin" },
     ],
-    image: "/images/zones/saint-denis.jpg",
+    image: "/images/zones/saint-denis.webp",
   },
   {
     name: "Saint-Germain-en-Laye",
@@ -1419,7 +1419,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Saint-Cloud", slug: "reparation-volet-saint-cloud" },
       { label: "Rambouillet", slug: "reparation-volet-rambouillet" },
     ],
-    image: "/images/zones/versailles.jpg",
+    image: "/images/zones/versailles.webp",
   },
   {
     name: "Villejuif",
@@ -1532,7 +1532,7 @@ export const zonesPagesData: ZoneCityData[] = [
       { label: "Villejuif", slug: "reparation-volet-villejuif" },
       { label: "Creteil", slug: "reparation-volet-creteil" },
     ],
-    image: "/images/zones/evry.jpg",
+    image: "/images/zones/evry.webp",
   },
 ];
 

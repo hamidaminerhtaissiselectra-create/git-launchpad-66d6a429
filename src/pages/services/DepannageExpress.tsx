@@ -7,20 +7,20 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import imgDepannage from "@/assets/service-depannage-v2.jpg";
+import imgDepannage from "@/assets/service-depannage-v2.webp";
 import ProcessSection from "@/components/ProcessSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import QuoteFormSection from "@/components/QuoteFormSection";
 import RepairShowcaseSection from "@/components/RepairShowcaseSection";
 import ServiceRegionsSection from "@/components/ServiceRegionsSection";
 import FAQSection from "@/components/FAQSection";
-import emergencyTechnicianImg from "@/assets/emergency-technician-section.jpg";
+import emergencyTechnicianImg from "@/assets/emergency-technician-section.webp";
 import { fadeUp, staggerItem, hoverLift, heroEntry } from "@/lib/animations";
 
 const situations = [
-  { title: "Urgence Nocturne & Sécurité", desc: "Volet bloqué en position ouverte la nuit ou suite à une panne moteur ? Nous intervenons pour sécuriser votre domicile immédiatement.", urgency: "CRITIQUE", color: "border-service-rose/30", image: "/images/depannage/nuit.jpg", data: ["Intervention : < 1h", "Dispo : 24h/24", "Sécurisation : Immédiate"] },
-  { title: "Tentative d'Effraction", desc: "Votre volet a été forcé ou endommagé ? Nous réparons les lames, les coulisses et renforçons la sécurité de votre installation.", urgency: "HAUTE", color: "border-service-orange/30", image: "/images/depannage/effraction.jpg", data: ["Réparation : Lames/Axe", "Renfort : Anti-relevage", "Assurance : Devis agréé"] },
-  { title: "Dégâts Intempéries", desc: "Grêle, tempête ou vent violent ? Si votre volet est sorti de ses rails ou si le tablier est abîmé, nous intervenons rapidement.", urgency: "MOYENNE", color: "border-service-blue/30", image: "/images/depannage/intemperies.jpg", data: ["Diagnostic : Structurel", "Pièces : Tablier/Lames", "Garantie : 2 ans"] },
+  { title: "Urgence Nocturne & Sécurité", desc: "Volet bloqué en position ouverte la nuit ou suite à une panne moteur ? Nous intervenons pour sécuriser votre domicile immédiatement.", urgency: "CRITIQUE", color: "border-service-rose/30", image: "/images/depannage/nuit.webp", data: ["Intervention : < 1h", "Dispo : 24h/24", "Sécurisation : Immédiate"] },
+  { title: "Tentative d'Effraction", desc: "Votre volet a été forcé ou endommagé ? Nous réparons les lames, les coulisses et renforçons la sécurité de votre installation.", urgency: "HAUTE", color: "border-service-orange/30", image: "/images/depannage/effraction.webp", data: ["Réparation : Lames/Axe", "Renfort : Anti-relevage", "Assurance : Devis agréé"] },
+  { title: "Dégâts Intempéries", desc: "Grêle, tempête ou vent violent ? Si votre volet est sorti de ses rails ou si le tablier est abîmé, nous intervenons rapidement.", urgency: "MOYENNE", color: "border-service-blue/30", image: "/images/depannage/intemperies.webp", data: ["Diagnostic : Structurel", "Pièces : Tablier/Lames", "Garantie : 2 ans"] },
 ];
 
 const engagements = [
