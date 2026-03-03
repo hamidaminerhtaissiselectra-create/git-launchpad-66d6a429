@@ -29,7 +29,7 @@ export const idfCities = {
     { name: "Courbevoie", slug: "courbevoie" },
     { name: "Puteaux", slug: "puteaux" },
     { name: "La Défense", slug: "la-défense" },
-    { name: "Sèvres", slug: "sèvres" },
+    { name: "Sèvres", slug: "sevres" },
     { name: "Saint-Cloud", slug: "saint-cloud" },
     { name: "Rueil-Malmaison", slug: "rueil-malmaison" },
   ],
@@ -44,7 +44,7 @@ export const idfCities = {
     { name: "Saint-Ouen", slug: "saint-ouen" },
   ],
   "94": [
-    { name: "Créteil", slug: "créteil" },
+    { name: "Créteil", slug: "creteil" },
     { name: "Vitry-sur-Seine", slug: "vitrysur-seine" },
     { name: "Ivry-sur-Seine", slug: "ivrysur-seine" },
     { name: "Villejuif", slug: "villejuif" },
@@ -59,7 +59,7 @@ export const idfCities = {
     { name: "Versailles", slug: "versailles" },
   ],
   "91": [
-    { name: "Évry", slug: "évry" },
+    { name: "Évry", slug: "evry" },
     { name: "Corbeil-Essonnes", slug: "corbeil-essonnes" },
   ],
   "77": [
