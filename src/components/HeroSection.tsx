@@ -56,9 +56,17 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }} 
             animate={{ opacity: 1, y: 0 }} 
             transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
-            className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl leading-relaxed"
+            className="text-lg md:text-xl text-muted-foreground mb-6 max-w-2xl leading-relaxed"
           >
             Répar'Action Volets, votre spécialiste de la réparation, installation et motorisation de volets roulants à Paris et en Île-de-France. Techniciens certifiés RGE, intervention rapide sous 48h, diagnostic 100% gratuit et garantie 3 ans pièces & main d'œuvre.
+          </motion.p>
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }} 
+            animate={{ opacity: 1, y: 0 }} 
+            transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
+            className="text-base text-muted-foreground/80 mb-10 max-w-2xl leading-relaxed"
+          >
+            Que votre volet soit bloqué en position ouverte, que le moteur Somfy ou Bubendorff émette un bourdonnement sans bouger, ou que vous souhaitiez passer à la motorisation connectée avec pilotage smartphone — nos artisans qualifiés interviennent dans tous les arrondissements de Paris (du 1er au 20e), à Boulogne-Billancourt, Neuilly, Saint-Denis, Versailles et dans plus de 50 communes d'Île-de-France. Devis transparent, sans surprise ni frais cachés.
           </motion.p>
 
           <motion.div 

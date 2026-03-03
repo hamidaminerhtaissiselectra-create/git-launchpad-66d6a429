@@ -35,8 +35,11 @@ const RegionsSection = () => {
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
             Nos Zones d'Intervention : Réparation de Volets Roulants à Paris, Île-de-France et Partout en France - Intervention Rapide 48h
           </h2>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground mb-3">
             Répar'Action Volets couvre l'ensemble du territoire français, avec une présence renforcée à Paris et en Île-de-France.
+          </p>
+          <p className="text-muted-foreground text-sm">
+            Nos techniciens circulent quotidiennement dans les départements 75, 77, 78, 91, 92, 93, 94 et 95. Grâce à notre système de géolocalisation intelligente, nous optimisons les tournées pour réduire les délais et vous proposer un créneau d'intervention au plus vite — souvent sous 24 à 48 heures.
           </p>
         </motion.div>
 
