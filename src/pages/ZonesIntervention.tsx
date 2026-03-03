@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { useSEO } from "@/hooks/useSEO";
 import Breadcrumbs from "@/components/SEO/Breadcrumbs";
 import AnimatedSection from "@/components/AnimatedSection";
-import { fadeUp, fadeLeft, fadeRight, staggerItem, hoverLift } from "@/lib/animations";
+import { staggerItem } from "@/lib/animations";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";

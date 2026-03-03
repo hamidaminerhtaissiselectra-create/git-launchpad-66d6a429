@@ -10,7 +10,8 @@ const ContactSection = () => (
         <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
           Contactez-Nous pour un Devis Gratuit - Réparation de Volets Roulants à Paris et en France
         </h2>
-        <p className="text-muted-foreground">Notre équipe est à votre écoute pour répondre à vos questions et vous conseiller sur la meilleure solution.</p>
+        <p className="text-muted-foreground mb-3">Notre équipe est à votre écoute pour répondre à vos questions et vous conseiller sur la meilleure solution pour vos volets roulants.</p>
+        <p className="text-muted-foreground text-sm">Que vous ayez besoin d'un dépannage urgent un dimanche, d'un devis pour motoriser vos volets manuels, ou d'un conseil sur le choix entre aluminium et PVC — nos conseillers techniques vous répondent sous 2 heures et planifient l'intervention au créneau qui vous convient.</p>
       </motion.div>
 
       <div className="grid lg:grid-cols-2 gap-10">

@@ -20,7 +20,8 @@ const ProcessSection = () => (
         <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
           Notre Processus Complet de Réparation et Installation de Volets Roulants
         </h2>
-        <p className="text-muted-foreground">De votre premier appel au suivi après-vente, découvrez notre processus professionnel pour une réparation ou installation réussie de vos volets roulants.</p>
+        <p className="text-muted-foreground mb-3">De votre premier appel au suivi après-vente, découvrez notre processus professionnel pour une réparation ou installation réussie de vos volets roulants.</p>
+        <p className="text-muted-foreground text-sm">Chaque étape est conçue pour minimiser les délais et maximiser la transparence : pas de frais cachés, un devis détaillé avant chaque intervention, et un suivi personnalisé jusqu'à la garantie de 3 ans. Notre taux de résolution au premier passage atteint 95% grâce à nos véhicules équipés de pièces de rechange Somfy, Bubendorff et Profalux.</p>
       </motion.div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -57,8 +57,11 @@ const ServicesSection = () => (
         <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
           Services Complets de Réparation, Installation et Motorisation de Volets Roulants
         </h2>
-        <p className="text-muted-foreground">
-          Réparation, installation et motorisation de volets roulants. Expertise multimarques (Somfy, Bubendorff), intervention rapide, garantie 3 ans pièces et main d'œuvre. Paris & Île-de-France.
+        <p className="text-muted-foreground mb-3">
+          Réparation, installation et motorisation de volets roulants. Expertise multimarques (Somfy, Bubendorff, Profalux, Simu, Nice), intervention rapide, garantie 3 ans pièces et main d'œuvre. Paris & Île-de-France.
+        </p>
+        <p className="text-muted-foreground text-sm">
+          Nos techniciens certifiés RGE traitent chaque année plus de 500 interventions : volets bloqués, moteurs en panne, lames cassées, sangles usées, coffres endommagés, remplacement de tablier complet et pose de volets neufs sur-mesure en aluminium ou PVC. Éligible MaPrimeRénov' et éco-PTZ.
         </p>
       </motion.div>
 

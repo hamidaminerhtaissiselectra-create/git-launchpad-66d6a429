@@ -659,5 +659,244 @@ En tant qu'artisan certifié **RGE** et **Qualibat**, nous vous aidons à :
 - Fournir les attestations nécessaires
 
 Appelez le **06 03 20 59 67** pour un conseil gratuit sur vos aides.`
+  },
+  {
+    id: "reparation-volet-paris-15",
+    title: "Réparation de Volets Roulants Paris 15e : Expert Local de Confiance",
+    excerpt: "Votre volet est bloqué dans le 15e arrondissement ? Découvrez notre service de réparation rapide à Paris 15, quartier par quartier.",
+    date: "2 février 2026",
+    author: "Répar'Action Volets",
+    category: "Paris Local",
+    slug: "reparation-volet-paris-15",
+    metaDescription: "Réparation volets roulants Paris 15e : intervention sous 24h à Beaugrenelle, Javel, Commerce, Vaugirard. Devis gratuit. Répar'Action Volets.",
+    image: "/images/zones/paris-15.webp",
+    content: `## Réparation de volets roulants dans le 15e arrondissement de Paris
+
+Le **15e arrondissement** est le plus peuplé de Paris avec plus de 230 000 habitants. Les immeubles haussmanniens côtoient les constructions modernes du Front de Seine, chacun présentant des problématiques spécifiques en matière de volets roulants.
+
+### Quartiers d'intervention prioritaires
+
+**Beaugrenelle & Front de Seine** : les tours résidentielles des années 70-80 sont souvent équipées de volets roulants électriques vieillissants. Les moteurs d'origine arrivent en fin de vie et nécessitent un remplacement par des motorisations Somfy io-homecontrol compatibles domotique.
+
+**Vaugirard & Convention** : le tissu résidentiel dense de ce quartier se compose principalement d'immeubles de 5 à 7 étages avec des volets manuels à sangle. La sangle reste la panne n°1 : usure par frottement, cassure nette, ou blocage dans l'enrouleur.
+
+**Commerce & La Motte-Picquet** : les commerces de rue avec rideaux métalliques représentent une part importante de nos interventions. Déblocage d'urgence, remplacement de lames abîmées et motorisation de rideaux manuels.
+
+**Javel & Citroën** : les résidences récentes du bord de Seine sont équipées de volets aluminium motorisés haut de gamme. Nos techniciens maîtrisent les systèmes Bubendorff monoblocs et les protocoles de réinitialisation.
+
+### Pannes les plus fréquentes dans le 15e
+
+| Type de panne | Fréquence | Délai intervention |
+|--------------|-----------|-------------------|
+| Sangle cassée ou usée | 35% | Même jour |
+| Moteur électrique HS | 25% | 24h |
+| Lames désalignées | 20% | 24h |
+| Fin de course déréglée | 10% | Même jour |
+| Tablier sorti des coulisses | 10% | 24h |
+
+### Pourquoi choisir Répar'Action dans le 15e ?
+
+Notre technicien dédié au 15e arrondissement circule quotidiennement entre Beaugrenelle et Vaugirard. Son véhicule est équipé d'un stock permanent de pièces : moteurs Somfy, sangles toutes largeurs, lames aluminium et PVC aux dimensions standard. Résultat : **95% des pannes résolues au premier passage**.
+
+Appelez le **06 03 20 59 67** pour une intervention rapide dans le 15e.`
+  },
+  {
+    id: "reparation-volet-boulogne-billancourt",
+    title: "Réparation Volets Roulants Boulogne-Billancourt : Votre Expert Proche de Chez Vous",
+    excerpt: "Service de réparation et motorisation de volets roulants à Boulogne-Billancourt. Intervention rapide dans tous les quartiers.",
+    date: "1 février 2026",
+    author: "Répar'Action Volets",
+    category: "Île-de-France Local",
+    slug: "reparation-volet-boulogne-billancourt",
+    metaDescription: "Réparation volets roulants Boulogne-Billancourt : intervention 24-48h, tous quartiers. Expert Somfy & Bubendorff. Devis gratuit Répar'Action Volets.",
+    image: "/images/zones/boulogne.webp",
+    content: `## Volets roulants à Boulogne-Billancourt : un parc diversifié
+
+Avec plus de 120 000 habitants, **Boulogne-Billancourt** est la commune la plus peuplée des Hauts-de-Seine. Son parc immobilier mêle immeubles anciens, résidences années 60-80 et constructions récentes sur l'île Seguin et le Trapèze.
+
+### Spécificités locales
+
+**Quartier du Trapèze & île Seguin** : les programmes immobiliers récents sont équipés de volets roulants aluminium motorisés dernière génération, souvent connectés. Les pannes proviennent principalement de déréglages électroniques ou de problèmes de programmation domotique.
+
+**Centre-ville historique** : les immeubles haussmanniens et art déco de la rue d'Aguesseau et du quartier Silly possèdent des volets roulants plus anciens, souvent manuels. La modernisation par motorisation radio est notre intervention la plus demandée dans ce secteur.
+
+**Point du Jour & Billancourt** : secteur résidentiel dense avec un mix de volets PVC et aluminium. Les pannes courantes incluent les sangles usées, les moteurs en fin de vie et les lames fendues par les intempéries.
+
+### Nos services à Boulogne-Billancourt
+
+- **Réparation express** : volets bloqués, moteurs HS, sangles cassées — intervention sous 24h
+- **Motorisation** : transformation de vos volets manuels en volets électriques ou connectés
+- **Installation neuve** : volets sur-mesure aluminium ou PVC, pose professionnelle
+- **Vitrerie** : remplacement de vitrage simple, double ou triple, urgence bris de glace
+
+### Tarifs indicatifs à Boulogne-Billancourt
+
+| Intervention | Prix moyen |
+|-------------|-----------|
+| Remplacement sangle | 80-120€ |
+| Motorisation par volet | 300-500€ |
+| Remplacement moteur | 180-350€ |
+| Installation volet neuf | 350-900€ |
+
+Notre technicien dédié aux Hauts-de-Seine intervient à Boulogne-Billancourt, Issy-les-Moulineaux, Meudon et Sèvres. Contactez-nous au **06 03 20 59 67**.`
+  },
+  {
+    id: "reparation-volet-saint-denis-93",
+    title: "Réparation Volets Roulants Saint-Denis (93) : Intervention Rapide Seine-Saint-Denis",
+    excerpt: "Expert en réparation de volets roulants à Saint-Denis et en Seine-Saint-Denis. Dépannage urgent, motorisation et installation.",
+    date: "30 janvier 2026",
+    author: "Répar'Action Volets",
+    category: "Île-de-France Local",
+    slug: "reparation-volet-saint-denis-93",
+    metaDescription: "Réparation volets roulants Saint-Denis 93 : dépannage urgent, motorisation, installation. Intervention 24-48h. Devis gratuit Répar'Action Volets.",
+    image: "/images/zones/saint-denis.webp",
+    content: `## Réparation de volets roulants à Saint-Denis et en Seine-Saint-Denis
+
+**Saint-Denis** connaît une transformation urbaine majeure avec les aménagements liés aux Jeux Olympiques et au Grand Paris Express. Cette dynamique engendre une forte demande en rénovation de volets roulants, tant dans l'habitat ancien que dans les programmes neufs.
+
+### Problématiques spécifiques au 93
+
+Le département de Seine-Saint-Denis présente des caractéristiques propres en matière de volets roulants :
+
+**Sécurité renforcée** : la demande de volets anti-effraction et de rideaux métalliques motorisés est particulièrement forte. Nous installons des systèmes à verrouillage automatique et des lames renforcées en aluminium extrudé.
+
+**Isolation thermique** : le parc de logements sociaux et les copropriétés des années 60-80 nécessitent souvent un remplacement complet des volets pour améliorer l'isolation. Nos installations en aluminium double paroi avec mousse polyuréthane permettent de réduire les déperditions de 25%.
+
+**Rénovation urbaine** : les nombreux programmes ANRU et les réhabilitations de quartiers génèrent des chantiers de remplacement massif de volets. Nous intervenons en tant que sous-traitant ou directement pour les copropriétés.
+
+### Villes couvertes en Seine-Saint-Denis
+
+Notre technicien dédié au 93 circule quotidiennement entre :
+- **Saint-Denis** : centre-ville, Pleyel, Stade de France
+- **Montreuil** : Croix-de-Chavaux, Bobillot, Vincennes
+- **Bobigny** : préfecture, Pablo-Picasso
+- **Pantin** : centre, Quatre-Chemins
+- **Aubervilliers** : Fort, Villette
+- **Saint-Ouen** : marché, Garibaldi
+- **Noisy-le-Sec** : centre, Merlan
+- **Bagnolet** : Gallieni, centre
+
+### Aides financières dans le 93
+
+Les résidents de Seine-Saint-Denis peuvent bénéficier d'aides cumulables : MaPrimeRénov' (bonifiée en zone prioritaire), TVA à 5,5%, éco-PTZ et aides spécifiques de la communauté d'agglomération Plaine Commune. En tant qu'artisan certifié RGE, nous vous accompagnons dans toutes les démarches.
+
+Contactez-nous au **06 03 20 59 67** pour un devis gratuit.`
+  },
+  {
+    id: "reparation-volet-versailles-78",
+    title: "Réparation Volets Roulants Versailles et Yvelines : Expert Local 78",
+    excerpt: "Intervention rapide pour la réparation et l'installation de volets roulants à Versailles, Saint-Germain-en-Laye et dans les Yvelines.",
+    date: "28 janvier 2026",
+    author: "Répar'Action Volets",
+    category: "Île-de-France Local",
+    slug: "reparation-volet-versailles-78",
+    metaDescription: "Réparation volets roulants Versailles Yvelines 78 : intervention rapide, motorisation Somfy, installation sur-mesure. Devis gratuit Répar'Action.",
+    image: "/images/zones/versailles.webp",
+    content: `## Volets roulants à Versailles et dans les Yvelines
+
+Les **Yvelines** se distinguent par un habitat résidentiel de qualité, avec de nombreuses maisons individuelles et des résidences de standing. Les exigences en matière de volets roulants y sont élevées : esthétique soignée, isolation performante et motorisation connectée.
+
+### Versailles : un patrimoine exigeant
+
+La proximité du château impose des contraintes architecturales strictes dans certains quartiers classés. Nos interventions à Versailles prennent en compte :
+- Le respect des coloris imposés par les ABF (Architectes des Bâtiments de France)
+- L'intégration discrète des coffres de volets dans les façades historiques
+- La motorisation silencieuse pour le confort des résidents
+
+### Saint-Germain-en-Laye : maisons de caractère
+
+Les maisons bourgeoises de Saint-Germain-en-Laye sont souvent équipées de grandes baies vitrées nécessitant des volets sur-mesure de grandes dimensions. Nous proposons des solutions en aluminium laqué avec motorisation Somfy io intégrée et gestion centralisée via TaHoma.
+
+### Nos interventions dans les Yvelines
+
+| Service | Délai | Prix moyen |
+|---------|-------|-----------|
+| Dépannage urgent | Jour même | 100-200€ |
+| Réparation moteur | 24-48h | 180-350€ |
+| Motorisation complète | 48-72h | 300-500€/volet |
+| Installation neuve alu | Sur devis | 450-900€/volet |
+| Remplacement tablier | 24-48h | 150-300€ |
+
+### Communes couvertes dans le 78
+
+Versailles, Saint-Germain-en-Laye, Rambouillet, Mantes-la-Jolie, Le Chesnay, Viroflay, Vélizy-Villacoublay, Chatou, Le Vésinet, Maisons-Laffitte, Sartrouville, Poissy, Conflans-Sainte-Honorine.
+
+Appelez le **06 03 20 59 67** pour un devis gratuit dans les Yvelines.`
+  },
+  {
+    id: "reparation-volet-paris-11-marais",
+    title: "Réparation Volets Roulants Paris 11e & Le Marais : Dépannage Express",
+    excerpt: "Expert en volets roulants dans le 11e arrondissement et le Marais. Intervention rapide pour particuliers et commerçants.",
+    date: "26 janvier 2026",
+    author: "Répar'Action Volets",
+    category: "Paris Local",
+    slug: "reparation-volet-paris-11-marais",
+    metaDescription: "Réparation volets roulants Paris 11e Marais : dépannage express, rideaux métalliques commerces, motorisation. Devis gratuit Répar'Action Volets.",
+    image: "/images/zones/paris-11.webp",
+    content: `## Volets roulants et rideaux métalliques dans le 11e arrondissement
+
+Le **11e arrondissement** de Paris est un quartier vivant et commerçant, entre la Bastille, Oberkampf et la place de la République. Son tissu urbain dense combine logements anciens, ateliers reconvertis en lofts et une forte concentration de commerces de proximité.
+
+### Interventions pour les commerçants du 11e
+
+Les **rideaux métalliques** des commerces du boulevard Voltaire, de la rue Oberkampf et de la rue de la Roquette représentent une part importante de nos interventions dans le 11e :
+
+- **Déblocage d'urgence** : un rideau métallique bloqué en position ouverte la nuit est une urgence de sécurité. Nous intervenons sous 2 heures.
+- **Motorisation de rideaux manuels** : fini la manivelle lourde à tourner chaque matin et chaque soir. Nous installons des moteurs tubulaires avec télécommande.
+- **Remplacement de lames** : les lames en acier galvanisé s'oxydent avec le temps. Nous les remplaçons par des lames en aluminium inoxydable.
+
+### Logements du 11e : pannes courantes
+
+**Bastille & Charonne** : les immeubles anciens (XIXe siècle) ont souvent des volets à sangle encastrée dans le mur. Le remplacement nécessite un savoir-faire spécifique pour ne pas endommager le plâtre.
+
+**Oberkampf & Parmentier** : les lofts et ateliers reconvertis présentent de grandes ouvertures vitrées. L'installation de volets sur-mesure en aluminium motorisé est la solution idéale pour l'isolation et la sécurité.
+
+**République & Temple** : à la frontière du Marais (3e et 4e), les immeubles classés imposent des contraintes esthétiques. Nous proposons des volets aluminium laqué dans les coloris RAL autorisés par les ABF.
+
+### Tarifs dans le 11e arrondissement
+
+- Réparation sangle encastrée : 90-130€
+- Motorisation volet existant : 300-500€
+- Déblocage rideau métallique (urgence) : 120-200€
+- Installation volet neuf sur-mesure : 400-900€
+
+Intervention sous 24h garantie. Appelez le **06 03 20 59 67**.`
+  },
+  {
+    id: "reparation-volet-creteil-94",
+    title: "Réparation Volets Roulants Créteil et Val-de-Marne (94) : Service de Proximité",
+    excerpt: "Votre expert en volets roulants à Créteil, Vitry-sur-Seine, Ivry et dans tout le Val-de-Marne. Réparation, installation et motorisation.",
+    date: "24 janvier 2026",
+    author: "Répar'Action Volets",
+    category: "Île-de-France Local",
+    slug: "reparation-volet-creteil-94",
+    metaDescription: "Réparation volets roulants Créteil Val-de-Marne 94 : intervention rapide tous quartiers. Motorisation, installation, dépannage. Répar'Action Volets.",
+    image: "/images/zones/creteil.webp",
+    content: `## Volets roulants dans le Val-de-Marne : un département en pleine mutation
+
+Le **Val-de-Marne** connaît une dynamique de construction et de rénovation soutenue, portée par le Grand Paris Express et les projets urbains autour de la ligne 15 du métro. Cette transformation génère une forte demande en installation et modernisation de volets roulants.
+
+### Créteil : capitale départementale
+
+La préfecture du Val-de-Marne abrite un parc immobilier varié :
+- **Centre commercial Créteil Soleil** et alentours : immeubles années 70-80 avec volets électriques vieillissants, moteurs en fin de vie
+- **Bords de Marne** : résidences récentes avec volets aluminium connectés, maintenance préventive recommandée
+- **Quartier de l'Échat** : rénovation urbaine en cours, remplacement massif de volets dans les copropriétés
+
+### Villes d'intervention dans le 94
+
+Notre technicien dédié au Val-de-Marne couvre l'ensemble du département :
+- **Vitry-sur-Seine** : 2e ville du 94, forte demande en réparation et isolation thermique
+- **Ivry-sur-Seine** : quartier Ivry Confluences en plein développement, installations neuves
+- **Villejuif** : proximité de l'hôpital, interventions fréquentes en copropriétés
+- **Fontenay-sous-Bois** : résidentiel familial, motorisation et remplacement de volets anciens
+- **Vincennes** : patrimoine architectural soigné, volets sur-mesure aux normes ABF
+- **Saint-Mandé** : quartier résidentiel calme, demande en volets anti-bruit
+
+### Avantages de notre proximité
+
+Basés à **Fontenay-Trésigny** (77), nous sommes à moins de 30 minutes de Créteil par l'A4. Notre technicien local circule quotidiennement dans le Val-de-Marne, équipé de pièces Somfy et Bubendorff. Intervention sous 24 à 48h garantie.
+
+Appelez le **06 03 20 59 67** pour un devis gratuit dans le Val-de-Marne.`
   }
 ];

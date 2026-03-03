@@ -69,8 +69,11 @@ const ImageTextSection = () => {
                 <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-4 mb-3">
                   Réparation et Maintenance de Volets Roulants
                 </h2>
-                <p className="text-muted-foreground text-base leading-relaxed">
+                <p className="text-muted-foreground text-base leading-relaxed mb-3">
                   Depuis plus de 10 ans, nous intervenons à Paris et en Île-de-France pour réparer, installer et entretenir vos volets roulants. Notre équipe de techniciens certifiés RGE garantit une intervention rapide et un travail de qualité irréprochable.
+                </p>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  Un volet qui grince, une sangle qui lâche, un moteur qui ne répond plus ? Nos experts diagnostiquent la panne en quelques minutes et interviennent avec des pièces d'origine Somfy, Bubendorff ou Profalux. Résultat : 95% des réparations sont finalisées en un seul passage, sans déplacement supplémentaire ni surcoût.
                 </p>
               </div>
 

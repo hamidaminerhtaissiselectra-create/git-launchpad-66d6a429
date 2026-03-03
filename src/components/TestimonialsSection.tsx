@@ -22,7 +22,8 @@ const TestimonialsSection = () => (
         <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
           Témoignages Clients - Avis et Retours d'Expérience sur la Réparation de Volets Roulants
         </h2>
-        <p className="text-muted-foreground">Découvrez les témoignages de nos clients satisfaits sur la réparation, installation et motorisation de volets roulants à Paris et en Île-de-France.</p>
+        <p className="text-muted-foreground mb-3">Découvrez les témoignages de nos clients satisfaits sur la réparation, installation et motorisation de volets roulants à Paris et en Île-de-France.</p>
+        <p className="text-muted-foreground text-sm">Note moyenne de 4.9/5 sur plus de 500 avis vérifiés. Nos clients apprécient la ponctualité de nos techniciens, la clarté de nos devis et la durabilité de nos réparations garanties 3 ans.</p>
       </motion.div>
 
       <motion.div {...fadeUp} className="flex flex-wrap justify-center gap-4 sm:gap-5 md:gap-6 mb-12">

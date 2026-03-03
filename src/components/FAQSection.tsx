@@ -25,7 +25,8 @@ const FAQSection = () => (
         <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
           Questions Fréquentes — Réparation & Installation de Volets Roulants à Paris
         </h2>
-        <p className="text-muted-foreground">Retrouvez les réponses aux questions les plus posées sur la réparation, l'installation, la motorisation de volets roulants et la vitrerie à Paris et en Île-de-France.</p>
+        <p className="text-muted-foreground mb-3">Retrouvez les réponses aux questions les plus posées sur la réparation, l'installation, la motorisation de volets roulants et la vitrerie à Paris et en Île-de-France.</p>
+        <p className="text-muted-foreground text-sm">Ces réponses sont rédigées par nos techniciens experts, forts de plus de 10 ans d'expérience terrain. Si votre question ne figure pas ici, appelez le 06 03 20 59 67 — un conseiller technique vous répond directement.</p>
       </motion.div>
 
       <motion.div {...fadeUp} className="max-w-3xl mx-auto">
