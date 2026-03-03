@@ -18,6 +18,7 @@ const BlogArticlePage = () => {
     description: article?.metaDescription || "Article de blog Répar'Action Volets.",
     keywords: article ? `${article.category}, volet roulant, ${article.title.toLowerCase().split(" ").slice(0, 3).join(", ")}` : "",
     canonicalUrl: article ? `https://reparaction-volets.fr/blog/${article.slug}` : undefined,
+    ogImage: article?.image ? `https://reparaction-volets.fr${article.image}` : undefined,
   });
 
   useEffect(() => {
@@ -176,7 +177,7 @@ const BlogArticlePage = () => {
       <section className="relative pt-24 pb-12 bg-hero-gradient text-primary-foreground overflow-hidden">
         {article.image && (
           <div className="absolute inset-0 opacity-15">
-            <img src={article.image} alt={article.title} className="w-full h-full object-cover" />
+            <img src={article.image} alt={article.title} className="w-full h-full object-cover" width={1200} height={630} />
           </div>
         )}
         <div className="container mx-auto px-4 relative z-10">
@@ -209,7 +210,7 @@ const BlogArticlePage = () => {
             <motion.article initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
               {article.image && (
                 <div className="rounded-2xl overflow-hidden mb-8 shadow-xl border border-border">
-                  <img src={article.image} alt={article.title} className="w-full h-auto object-cover max-h-[400px]" />
+                  <img src={article.image} alt={article.title} className="w-full h-auto object-cover max-h-[400px]" width={800} height={400} />
                 </div>
               )}
               {renderContent(article.content)}

@@ -26,6 +26,8 @@ const HeroSection = () => {
           src={heroImg} 
           alt="Réparation et installation de volets roulants à Paris par Répar'Action Volets, artisan certifié RGE" 
           className="w-full h-[120%] object-cover"
+          width={1920}
+          height={1280}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/85 to-white/40" />
       </motion.div>
